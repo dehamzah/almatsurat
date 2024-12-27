@@ -1,16 +1,26 @@
+import React from "react";
+import { Link } from "wouter";
 import MobileWidth from "@/components/MobileWidth";
 import { Button } from "@/components/ui/button";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
-const MenuContent = () => {
+interface MenuContentProps extends React.HTMLAttributes<HTMLDivElement> {
+  variant: "sughro" | "kubro";
+}
+
+const MenuContent: React.FC<MenuContentProps> = ({ variant }) => {
   return (
     <div className="mt-8">
-      <Button className="w-60 mb-2 block mx-auto" variant="outline">
-        Dzikir Pagi
+      <Button
+        className="w-60 mb-2 block mx-auto"
+        variant="outline"
+        asChild={true}
+      >
+        <Link href={`/dzikir-pagi-${variant}`}>Dzikir Pagi</Link>
       </Button>
 
-      <Button className="w-60 block mx-auto" variant="outline">
-        Dzikir Sore
+      <Button className="w-60 block mx-auto" variant="outline" asChild={true}>
+        <Link href={`/dzikir-sore-${variant}`}>Dzikir Sore</Link>
       </Button>
     </div>
   );
@@ -32,10 +42,10 @@ export const HomePage = () => {
             <TabsTrigger value="kubro">Kubro</TabsTrigger>
           </TabsList>
           <TabsContent value="sughro">
-            <MenuContent />
+            <MenuContent variant="sughro" />
           </TabsContent>
           <TabsContent value="kubro">
-            <MenuContent />
+            <MenuContent variant="kubro" />
           </TabsContent>
         </Tabs>
       </div>
