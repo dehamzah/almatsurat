@@ -28,15 +28,20 @@ const SubDzikrItems: React.FC<SubDzikrItemsProps> = ({
   return (
     <>
       <div className="leading-8">
-        {subDzikr.map((child) => (
-          <span className="text-base ml-2 inline">{child.arabic}</span>
+        {subDzikr.map((child, index) => (
+          <span key={index} className="text-base ml-2 inline">
+            {child.arabic}
+          </span>
         ))}
       </div>
 
       {showLatin && (
         <div className="mt-2">
-          {subDzikr.map((child) => (
-            <span className="text-sm mt-2 text-slate-700 ml-2 inline">
+          {subDzikr.map((child, index) => (
+            <span
+              key={index}
+              className="text-sm mt-2 text-slate-700 ml-2 inline"
+            >
               {child.latin}.
             </span>
           ))}
@@ -45,8 +50,11 @@ const SubDzikrItems: React.FC<SubDzikrItemsProps> = ({
 
       {showTranslation && (
         <div className="mt-2">
-          {subDzikr.map((child) => (
-            <span className="text-sm mt-2 text-slate-700 ml-2 inline">
+          {subDzikr.map((child, index) => (
+            <span
+              key={index}
+              className="text-sm mt-2 text-slate-700 ml-2 inline"
+            >
               {child.translation}
             </span>
           ))}
