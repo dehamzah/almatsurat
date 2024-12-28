@@ -2,17 +2,18 @@ import { Route, Switch } from "wouter";
 
 import HomePage from "./pages/HomePage";
 import DetailPage from "./pages/DetailPage";
+import NotFoundPage from "./pages/NotFoundPage";
 
 const App = () => {
   return (
     <>
       <Switch>
         <Route path="/" component={HomePage} />
-        <Route path="/dzikir-pagi-sughro" component={DetailPage} />
-        <Route path="/dzikir-sore-sughro" component={DetailPage} />
-        <Route path="/dzikir-pagi-kubro" component={DetailPage} />
-        <Route path="/dzikir-sore-kubro" component={DetailPage} />
-        <Route>404: No page exists.</Route>
+        <Route path="/almatsurat-pagi-sughro" component={DetailPage} />
+        <Route path="/almatsurat-sore-sughro" component={DetailPage} />
+        <Route path="/almatsurat-pagi-kubro" component={DetailPage} />
+        <Route path="/almatsurat-sore-kubro" component={DetailPage} />
+        <Route component={NotFoundPage} />
       </Switch>
     </>
   );
