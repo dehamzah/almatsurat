@@ -40,7 +40,7 @@ export const HomePage = () => {
           width={35}
           height={35}
           alt="Al Ma'tsurat Icon"
-          style={{ display: "inline-block" }}
+          className="inline-block mb-2"
         />
         <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl">
           Al Ma'tsurat
