@@ -4,7 +4,7 @@ export const dzikrData: Dzikr[] = [
   {
     title: "Ta'awudz",
     repeat: 1,
-    tags: ["morning-dzikr", "evening-dzikr", "sugro", "kubro"],
+    tags: ["morning-dzikr", "evening-dzikr", "sughro", "kubro"],
     children: [
       {
         arabic:
@@ -18,7 +18,7 @@ export const dzikrData: Dzikr[] = [
   {
     title: "Surat Al-Fātiḥah",
     repeat: 1,
-    tags: ["morning-dzikr", "evening-dzikr", "sugro", "kubro"],
+    tags: ["morning-dzikr", "evening-dzikr", "sughro", "kubro"],
     children: [
       {
         arabic: "بِسْمِ اللَّـهِ الرَّحْمَـٰنِ الرَّحِيمِ ١",
@@ -64,7 +64,7 @@ export const dzikrData: Dzikr[] = [
   {
     title: "Surat Al-Baqarah Ayat 1-5",
     repeat: 1,
-    tags: [],
+    tags: ["morning-dzikr", "evening-dzikr", "sughro", "kubro"],
     children: [
       {
         arabic: "الٓمٓ ١",
@@ -105,7 +105,7 @@ export const dzikrData: Dzikr[] = [
   {
     title: "Surat Al-Baqarah Ayat 255-257",
     repeat: 1,
-    tags: [],
+    tags: ["morning-dzikr", "evening-dzikr", "sughro", "kubro"],
     children: [
       {
         arabic:
@@ -136,7 +136,7 @@ export const dzikrData: Dzikr[] = [
   {
     title: "Surat Al-Baqarah Ayat 284-286",
     repeat: 1,
-    tags: [],
+    tags: ["morning-dzikr", "evening-dzikr", "sughro", "kubro"],
     children: [
       {
         arabic:
@@ -167,7 +167,7 @@ export const dzikrData: Dzikr[] = [
   {
     title: "Surat Al-Imran Ayat 1-2",
     repeat: 1,
-    tags: [],
+    tags: ["morning-dzikr", "evening-dzikr", "kubro"],
     children: [
       {
         arabic: "الٓمٓ ١",
@@ -185,7 +185,7 @@ export const dzikrData: Dzikr[] = [
   {
     title: "Surat Thoha Ayat 111-112",
     repeat: 1,
-    tags: [],
+    tags: ["morning-dzikr", "evening-dzikr", "kubro"],
     children: [
       {
         arabic:
@@ -208,7 +208,7 @@ export const dzikrData: Dzikr[] = [
   {
     title: "Surat At-Taubah Ayat 129",
     repeat: 1,
-    tags: [],
+    tags: ["morning-dzikr", "evening-dzikr", "kubro"],
     children: [
       {
         arabic:
@@ -223,7 +223,7 @@ export const dzikrData: Dzikr[] = [
   {
     title: "Surat Al-Mu'minun Ayat 115-118",
     repeat: 1,
-    tags: [],
+    tags: ["morning-dzikr", "evening-dzikr", "kubro"],
     children: [
       {
         arabic:
@@ -261,7 +261,7 @@ export const dzikrData: Dzikr[] = [
   {
     title: "Surat Ar-Rum Ayat 17-26",
     repeat: 1,
-    tags: [],
+    tags: ["morning-dzikr", "evening-dzikr", "kubro"],
     children: [
       {
         arabic: "فَسُبْحَـٰنَ ٱللَّهِ حِينَ تُمْسُونَ وَحِينَ تُصْبِحُونَ ١٧",
@@ -345,7 +345,7 @@ export const dzikrData: Dzikr[] = [
   {
     title: "Surat Ghafir Ayat 1-3",
     repeat: 1,
-    tags: [],
+    tags: ["morning-dzikr", "evening-dzikr", "kubro"],
     children: [
       {
         arabic: "حمٓ ١",
@@ -371,7 +371,7 @@ export const dzikrData: Dzikr[] = [
   {
     title: "Surat Al-Hasyr Ayat 22-24",
     repeat: 1,
-    tags: [],
+    tags: ["morning-dzikr", "evening-dzikr", "kubro"],
     children: [
       {
         arabic:
@@ -402,7 +402,7 @@ export const dzikrData: Dzikr[] = [
   {
     title: "Surat Al-Zalzalah",
     repeat: 1,
-    tags: [],
+    tags: ["morning-dzikr", "evening-dzikr", "kubro"],
     children: [
       {
         arabic: "إِذَا زُلْزِلَتِ ٱلْأَرْضُ زِلْزَالَهَا ١",
@@ -455,7 +455,7 @@ export const dzikrData: Dzikr[] = [
   {
     title: "Surat Al-Kafirun",
     repeat: 1,
-    tags: [],
+    tags: ["morning-dzikr", "evening-dzikr", "kubro"],
     children: [
       {
         arabic: "قُلْ يَـٰٓأَيُّهَا ٱلْكَـٰفِرُونَ ١",
@@ -494,7 +494,7 @@ export const dzikrData: Dzikr[] = [
   {
     title: "Surat An-Nashr",
     repeat: 1,
-    tags: [],
+    tags: ["morning-dzikr", "evening-dzikr", "kubro"],
     children: [
       {
         arabic: "إِذَا جَآءَ نَصْرُ ٱللَّهِ وَٱلْفَتْحُ ١",
@@ -520,7 +520,7 @@ export const dzikrData: Dzikr[] = [
   {
     title: "Surat Al-Ikhlās",
     repeat: 3,
-    tags: [],
+    tags: ["morning-dzikr", "evening-dzikr", "sughro", "kubro"],
     children: [
       {
         arabic: "قُلۡ هُوَ ٱللَّهُ أَحَدٌ ١",
@@ -547,7 +547,7 @@ export const dzikrData: Dzikr[] = [
   {
     title: "Surat Al-Falaq",
     repeat: 3,
-    tags: [],
+    tags: ["morning-dzikr", "evening-dzikr", "sughro", "kubro"],
     children: [
       {
         arabic: "قُلۡ أَعُوذُ بِرَبِّ ٱلۡفَلَقِ ١",
@@ -581,7 +581,7 @@ export const dzikrData: Dzikr[] = [
   {
     title: "Surat An-Nās",
     repeat: 3,
-    tags: [],
+    tags: ["morning-dzikr", "evening-dzikr", "sughro", "kubro"],
     children: [
       {
         arabic: "قُلۡ أَعُوذُ بِرَبِّ ٱلنَّاسِ ١",
@@ -619,7 +619,7 @@ export const dzikrData: Dzikr[] = [
   {
     title: "Doa Al-Ma'tsurat",
     repeat: 3,
-    tags: [],
+    tags: ["morning-dzikr", "sughro", "kubro"],
     children: [
       {
         arabic:
@@ -634,7 +634,22 @@ export const dzikrData: Dzikr[] = [
   {
     title: "Doa Al-Ma'tsurat",
     repeat: 3,
-    tags: [],
+    tags: ["evening-dzikr", "sughro", "kubro"],
+    children: [
+      {
+        arabic:
+          "أَمْسَيْنَا وَ أَمْسَ الْمُلْكُ لِلَّهِ وَلْحَمْدُ لِلهِ لَا شَرِيْكَ لَهُ لَا إِلَهَ إِلَّاهُوَ وَإِلَيْهِ الْمَصِيْرُ",
+        latin:
+          "Amsainaa wa amsal-mulku lillahi walhamdu lillahi laa syarika lahu laa ilaaha illaahu wa ilaihil-mashiir",
+        translation:
+          "Kami telah memasuki waktu petang dan kerajaan hanyalah milik Allah, segala puji bagi Allah. Tidak ada sekutu bagi-Nya, tidak ada Tuhan selain Dia, dan kepada-Nya tempat kembali.",
+      },
+    ],
+  },
+  {
+    title: "Doa Al-Ma'tsurat",
+    repeat: 3,
+    tags: ["morning-dzikr", "sughro", "kubro"],
     children: [
       {
         arabic:
@@ -649,7 +664,22 @@ export const dzikrData: Dzikr[] = [
   {
     title: "Doa Al-Ma'tsurat",
     repeat: 3,
-    tags: [],
+    tags: ["evening-dzikr", "sughro", "kubro"],
+    children: [
+      {
+        arabic:
+          "أَمْسَيْنَا عَلَى فِطْرَةِ اْلإِسْلاَمِ وَعَلَى كَلِمَةِ اْلإِخْلاَصِ وَعَلَى دِيْنِ نَبِيِّنَا مُحَمَّدٍ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ وَعَلَى مِلَّةِ أَبِيْنَا إِبْرَاهِيْمَ حَنِيْفًا مُسْلِمًا وَمَا كَانَ مِنَ الْمُشْرِكِيْنَ",
+        latin:
+          "Amsainaa ‘alaa fithrotis-slaam wa ‘alaa kalimatil-ikhlaas wa ‘alaa diini nabiyyinaa Muhammad shallallahu ‘alaihi wa sallam wa ‘alaa millati abiinaa Ibraahiima haniifam musliman wa maa kaana minal-musyrikiin",
+        translation:
+          "Kami telah memasuki waktu petang dalam keadaan fitrah Islam, dalam keadaan kalimat ikhlas, dalam agama Nabi kami Muhammad shallallahu ‘alaihi wa sallam, dalam agama bapak kami Ibrahim yang lurus, seorang muslim, dan tidaklah termasuk orang-orang musyrik.",
+      },
+    ],
+  },
+  {
+    title: "Doa Al-Ma'tsurat",
+    repeat: 3,
+    tags: ["morning-dzikr", "sughro", "kubro"],
     children: [
       {
         arabic:
@@ -664,7 +694,22 @@ export const dzikrData: Dzikr[] = [
   {
     title: "Doa Al-Ma'tsurat",
     repeat: 3,
-    tags: [],
+    tags: ["evening-dzikr", "sughro", "kubro"],
+    children: [
+      {
+        arabic:
+          "اللَّهُمَّ إِنِّي أَمْسَيتُ مِنْكَ فِي نِعْمَةٍ وَعَافِيَةٍ وَسِتْر فَأَتِمَّ عَلَيَّ نِعْمَتَكَ وَعَافِيَتَكَ وَسِتْرَكَ فِي الدُّنْيَا وَالآخِرَة",
+        latin:
+          "Allāhumma innī amsaitu minka fī ni‘matin wa ‘āfiyatins-sitr fa-atimm ‘alayya ni‘matak wa ‘āfiyatika wa sitraka fī ad-dunyā wal-ākhirah",
+        translation:
+          "Ya Allah, sesungguhnya aku telah memasuki waktu petang dengan nikmat, kesehatan, dan perlindungan dari-Mu. Maka sempurnakanlah atas diriku nikmat, kesehatan, dan perlindungan-Mu di dunia dan akhirat.",
+      },
+    ],
+  },
+  {
+    title: "Doa Al-Ma'tsurat",
+    repeat: 3,
+    tags: ["morning-dzikr", "sughro", "kubro"],
     children: [
       {
         arabic:
@@ -679,7 +724,22 @@ export const dzikrData: Dzikr[] = [
   {
     title: "Doa Al-Ma'tsurat",
     repeat: 3,
-    tags: [],
+    tags: ["evening-dzikr", "sughro", "kubro"],
+    children: [
+      {
+        arabic:
+          "اللَّهُمَّ مَا أَمْسَ بِيْ مِنْ نِعْمَةٍ أَوْ بِأَحَدٍ مِنْ خَلْقِكَ فَمِنْكَ وَحْدَكَ لاَ شَرِيْكَ لَكَ فَلَكَ الْحَمْدُ وَلَكَ الشُّكْرُ",
+        latin:
+          "Allāhumma mā amsa bī min ni‘matin aw bi-ahadin min khalqika faminka wahdaka lā syarīka laka falakal-ḥamdu walakasy-syukr",
+        translation:
+          "Ya Allah, segala nikmat yang telah aku rasakan atau yang diperoleh oleh salah seorang makhluk-Mu, semuanya berasal dari-Mu semata, tidak ada sekutu bagi-Mu. Maka bagi-Mu segala puji dan syukur.",
+      },
+    ],
+  },
+  {
+    title: "Doa Al-Ma'tsurat",
+    repeat: 3,
+    tags: ["morning-dzikr", "evening-dzikr", "sughro", "kubro"],
     children: [
       {
         arabic:
@@ -694,7 +754,7 @@ export const dzikrData: Dzikr[] = [
   {
     title: "Doa Al-Ma'tsurat",
     repeat: 3,
-    tags: [],
+    tags: ["morning-dzikr", "evening-dzikr", "sughro", "kubro"],
     children: [
       {
         arabic:
@@ -709,7 +769,7 @@ export const dzikrData: Dzikr[] = [
   {
     title: "Doa Al-Ma'tsurat",
     repeat: 3,
-    tags: [],
+    tags: ["morning-dzikr", "evening-dzikr", "sughro", "kubro"],
     children: [
       {
         arabic:
@@ -724,7 +784,7 @@ export const dzikrData: Dzikr[] = [
   {
     title: "Doa Al-Ma'tsurat",
     repeat: 3,
-    tags: [],
+    tags: ["morning-dzikr", "evening-dzikr", "sughro", "kubro"],
     children: [
       {
         arabic:
@@ -739,7 +799,7 @@ export const dzikrData: Dzikr[] = [
   {
     title: "Doa Al-Ma'tsurat",
     repeat: 3,
-    tags: [],
+    tags: ["morning-dzikr", "evening-dzikr", "sughro", "kubro"],
     children: [
       {
         arabic:
@@ -754,7 +814,7 @@ export const dzikrData: Dzikr[] = [
   {
     title: "Doa Al-Ma'tsurat",
     repeat: 3,
-    tags: [],
+    tags: ["morning-dzikr", "evening-dzikr", "sughro", "kubro"],
     children: [
       {
         arabic:
@@ -768,7 +828,7 @@ export const dzikrData: Dzikr[] = [
   {
     title: "Doa Al-Ma'tsurat",
     repeat: 3,
-    tags: [],
+    tags: ["morning-dzikr", "evening-dzikr", "sughro", "kubro"],
     children: [
       {
         arabic:
@@ -783,7 +843,7 @@ export const dzikrData: Dzikr[] = [
   {
     title: "Doa Al-Ma'tsurat",
     repeat: 3,
-    tags: [],
+    tags: ["morning-dzikr", "evening-dzikr", "sughro", "kubro"],
     children: [
       {
         arabic:
@@ -798,7 +858,7 @@ export const dzikrData: Dzikr[] = [
   {
     title: "Doa Al-Ma'tsurat",
     repeat: 3,
-    tags: [],
+    tags: ["morning-dzikr", "evening-dzikr", "sughro", "kubro"],
     children: [
       {
         arabic:
@@ -813,7 +873,7 @@ export const dzikrData: Dzikr[] = [
   {
     title: "Doa Al-Ma'tsurat",
     repeat: 3,
-    tags: [],
+    tags: ["morning-dzikr", "evening-dzikr", "sughro", "kubro"],
     children: [
       {
         arabic:
@@ -828,7 +888,7 @@ export const dzikrData: Dzikr[] = [
   {
     title: "Doa Al-Ma'tsurat",
     repeat: 3,
-    tags: [],
+    tags: ["morning-dzikr", "evening-dzikr", "sughro", "kubro"],
     children: [
       {
         arabic:
@@ -843,7 +903,7 @@ export const dzikrData: Dzikr[] = [
   {
     title: "Doa Al-Ma'tsurat",
     repeat: 10,
-    tags: [],
+    tags: ["morning-dzikr", "evening-dzikr", "sughro", "kubro"],
     children: [
       {
         arabic:
@@ -858,7 +918,7 @@ export const dzikrData: Dzikr[] = [
   {
     title: "Doa Al-Ma'tsurat",
     repeat: 100,
-    tags: [],
+    tags: ["morning-dzikr", "evening-dzikr", "sughro", "kubro"],
     children: [
       {
         arabic:
@@ -873,7 +933,7 @@ export const dzikrData: Dzikr[] = [
   {
     title: "Doa Al-Ma'tsurat",
     repeat: 10,
-    tags: [],
+    tags: ["morning-dzikr", "evening-dzikr", "sughro", "kubro"],
     children: [
       {
         arabic:
@@ -888,7 +948,7 @@ export const dzikrData: Dzikr[] = [
   {
     title: "Doa Al-Ma'tsurat",
     repeat: 3,
-    tags: [],
+    tags: ["morning-dzikr", "evening-dzikr", "sughro", "kubro"],
     children: [
       {
         arabic:
@@ -903,7 +963,7 @@ export const dzikrData: Dzikr[] = [
   {
     title: "Doa Al-Ma'tsurat",
     repeat: 3,
-    tags: [],
+    tags: ["morning-dzikr", "evening-dzikr", "sughro", "kubro"],
     children: [
       {
         arabic:
@@ -918,7 +978,7 @@ export const dzikrData: Dzikr[] = [
   {
     title: "Doa Al-Ma'tsurat",
     repeat: 3,
-    tags: [],
+    tags: ["morning-dzikr", "evening-dzikr", "sughro", "kubro"],
     children: [
       {
         arabic:
@@ -927,6 +987,60 @@ export const dzikrData: Dzikr[] = [
           "Subḥānaka rabbika rabbil-‘izzati ‘ammā yashifūna wa sallāmu ‘alal-mursalīna wal-ḥamdu lillāhi rabbil-‘ālamīn",
         translation:
           "Maha Suci Engkau, Tuhanmu, Tuhan yang memiliki keagungan dari apa yang mereka katakan, dan keselamatan tercurah kepada para Rasul, segala puji bagi Allah, Tuhan semesta alam.",
+      },
+    ],
+  },
+
+  {
+    title: "Surat Al-Imran Ayat 26-27",
+    repeat: 1,
+    tags: ["morning-dzikr", "evening-dzikr", "sughro", "kubro"],
+    children: [
+      {
+        arabic:
+          "قُلِ ٱللَّهُمَّ مَـٰلِكَ ٱلۡمُلۡكِۖ تُؤۡتِي ٱلۡمُلۡكَ مَن تَشَآءُ وَتَنزِعُ ٱلۡمُلۡكَ مِمَّن تَشَآءُۖ وَتُعِزُّ مَن تَشَآءُ وَتُذِلُّ مَن تَشَآءُۖ بِيَدِكَ ٱلۡخَيۡرُۖ إِنَّكَ عَلَىٰ كُلِّ شَيۡءٖ قَدِيرٞ ٢٦",
+        latin:
+          "Quli allāhumma mālika al-mulki tu'tī al-mulka man tashā'u wa tanzi‘u al-mulka mimman tashā'u wa tu‘izzu man tashā'u wa tudhillu man tashā'u biyadika al-khayru innaka ‘alā kulli shay'in qadīr",
+        translation:
+          "Katakanlah (Muhammad), 'Wahai Tuhan Yang mempunyai kerajaan, Engkau berikan kerajaan kepada siapa yang Engkau kehendaki dan Engkau cabut kerajaan dari siapa yang Engkau kehendaki. Engkau muliakan siapa yang Engkau kehendaki dan Engkau hinakan siapa yang Engkau kehendaki. Di tangan-Mu lah segala kebajikan. Sungguh, Engkau Maha Kuasa atas segala sesuatu.'",
+      },
+      {
+        arabic:
+          "تُولِجُ ٱلَّيۡلَ فِي ٱلنَّهَارِ وَتُولِجُ ٱلنَّهَارَ فِي ٱلَّيۡلِۖ وَتُخۡرِجُ ٱلۡحَيَّ مِنَ ٱلۡمَيِّتِ وَتُخۡرِجُ ٱلۡمَيِّتَ مِنَ ٱلۡحَيِّۖ وَتَرۡزُقُ مَن تَشَآءُ بِغَيۡرِ حِسَابٍۢ ٢٧",
+        latin:
+          "Tūliju al-layla fī an-nahāri wa tūliju an-nahāra fī al-layli wa tukh'riju al-ḥayya mina al-mayyiti wa tukh'riju al-mayyita mina al-ḥayyi wa tarzuqu man tashā'u bighayri ḥisāb",
+        translation:
+          "Engkau masukkan malam ke dalam siang dan Engkau masukkan siang ke dalam malam. Engkau keluarkan yang hidup dari yang mati, dan Engkau keluarkan yang mati dari yang hidup. Dan Engkau beri rezeki kepada siapa yang Engkau kehendaki tanpa perhitungan.",
+      },
+    ],
+  },
+  {
+    title: "Doa Robitoh",
+    repeat: 1,
+    tags: ["morning-dzikr", "evening-dzikr", "sughro", "kubro"],
+    children: [
+      {
+        arabic:
+          "اَللَّهُمَّ إِنَّ هَذَا إِقْبَالُ نَهَارِكَ وَإِدْبَارُ لَيْلِكَ وَأَصْوَاتُ دُعَاتِكَ فَاغْفِرْلِي",
+        latin:
+          "Allāhumma innahā iqbālun nahārika wa idbārul laili wa aṣwātud du‘ātika faghfirlī",
+        translation:
+          "Ya Allah, sesungguhnya ini adalah waktu pagi hari, waktu malam telah berlalu, dan suara-suara orang-orang yang berdoa kepada-Mu. Maka ampunilah aku.",
+      },
+    ],
+  },
+  {
+    title: "Doa Robitoh",
+    repeat: 1,
+    tags: ["morning-dzikr", "evening-dzikr", "sughro", "kubro"],
+    children: [
+      {
+        arabic:
+          "اَللّهُمَّ إِنَّكَ تَعْلَمُ أَنَّ هَذِهِ الْقُلُوْبَ، قَدِ اجْتَمَعَتْ عَلَى مَحَبَّتِكَ وَالْتَقَتْ عَلَى طَاعَتِكَ، وَتَوَحَّدَتْ عَلَى دَعْوَتِكَ وَتَعَاهَدَتْ عَلَى نُصْرَةِ شَرِيْعَتِكَ فَوَثِّقِ اللَّهُمَّ رَابِطَتَهَا، وَأَدِمْ وُدَّهَا، وَاهْدِهَا سُبُلَهَا وَامْلَأَهَا بِنُوْرِكَ الَّذِيْ لاَ يَخْبُوْا وَاشْرَحْ صُدُوْرَهَا بِفَيْضِ الْإِيْمَانِ بِكَ، وَجَمِيْلِ التَّوَكُّلِ عَلَيْكَ وَاَحْيِهَا بِمَعْرِفَتِكَ، وَأَمِتْهَا عَلَى الشَّهَادَةِ فِي سَبِيْلِكَ إِنَّكَ نِعْمَ الْمَوْلَى وَنِعْمَ النَّصِيْرِ. اَللَّهُمَّ أَمِيْنَ. وَصَلِّ اللَّهُمَّ عَلَى سَيِّدَنَا مُحَمَّدٍ وَعَلَى آلِهِ وَصَحْبِهِ وَسَلِّمَ",
+        latin:
+          "Allāhumma innaka ta‘lamu anna hādihil qulūba qadij-tama‘at ‘alā maḥabbatika wa at-taqat ‘alā ṭā‘atika wa tawwaḥadat ‘alā da‘watika wa ta‘āhadat ‘alā nuṣrati syarī‘atika fawaththiqillāhumma rābiṭatahā wa adim wuddahā wa ahdiha subulahā wa amla’ahā binūrikalladhī lā yakhbū wa asyrah ṣudūrahā bifayḍil īmānibika wa jamīlittawakkuli ‘alayka wa aḥyihā bima‘rifatika wa amithhā ‘alasyahādati fī sabīlik, innaka ni‘mal mawlā wa ni‘man naṣīr. Allāhumma amīn. Wa shalli allāhumma ‘alā sayyidinā muḥammadin wa ‘alā ālihi wa ṣaḥbihi wa sallim",
+        translation:
+          "Ya Allah, sesungguhnya Engkau mengetahui bahwa hati-hati ini telah berkumpul dalam cinta kepada-Mu, bersatu dalam ketaatan kepada-Mu, bersatu dalam doa kepada-Mu, dan bersatu dalam membela syariat-Mu. Maka kuatkanlah, ya Allah, ikatan hati-hati ini, pertahankanlah kasih sayang di antara mereka, berikanlah petunjuk kepada jalan-jalan mereka, penuhilah mereka dengan cahaya-Mu yang tidak akan padam, lapangkanlah dadanya dengan limpahan iman kepada-Mu, keindahan tawakkal kepada-Mu, hidupkanlah mereka dengan pengetahuan-Mu, matikanlah mereka dalam kesaksian di jalan-Mu. Sungguh, Engkau adalah Pemelihara yang baik dan Penolong yang baik. Ya Allah, Amin. Dan limpahkanlah shalawat kepada junjungan kami Nabi Muhammad dan keluarganya serta sahabat-sahabatnya.",
       },
     ],
   },
