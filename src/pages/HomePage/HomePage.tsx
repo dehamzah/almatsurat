@@ -16,11 +16,11 @@ const MenuContent: React.FC<MenuContentProps> = ({ variant }) => {
         variant="outline"
         asChild={true}
       >
-        <Link href={`/dzikir-pagi-${variant}`}>Dzikir Pagi</Link>
+        <Link href={`/almatsurat-pagi-${variant}`}>Al Ma'tsurat Pagi</Link>
       </Button>
 
       <Button className="w-60 block mx-auto" variant="outline" asChild={true}>
-        <Link href={`/dzikir-sore-${variant}`}>Dzikir Sore</Link>
+        <Link href={`/almatsurat-sore-${variant}`}>Al Ma'tsurat Sore</Link>
       </Button>
     </div>
   );
