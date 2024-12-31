@@ -45,7 +45,7 @@ export const HomePage = () => {
         <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl">
           Al Ma'tsurat
         </h1>
-        <p>Doa dan Dzikir yang dinukil dari Rasulullah SAW</p>
+        <p>Kumpulan Doa dan Dzikir yang diambil dari Al-Qur'an</p>
       </div>
       <div>
         <Tabs defaultValue="sughro">
