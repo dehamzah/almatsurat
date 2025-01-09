@@ -4,6 +4,7 @@ import MobileWidth from "@/components/MobileWidth";
 import { Button } from "@/components/ui/button";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import almatsuratIcon from "@/assets/almatsurat.png";
+import { Settings } from "lucide-react";
 
 interface MenuContentProps extends React.HTMLAttributes<HTMLDivElement> {
   variant: "sughro" | "kubro";
@@ -34,7 +35,14 @@ const MenuContent: React.FC<MenuContentProps> = ({ variant }) => {
 export const HomePage = () => {
   return (
     <MobileWidth className="text-center">
-      <div className="pt-20 pb-10">
+      <div className="p-2 text-right">
+        <Button variant="ghost" size="icon" asChild={true}>
+          <Link href="/settings">
+            <Settings />
+          </Link>
+        </Button>
+      </div>
+      <div className="pt-10 pb-10">
         <img
           src={almatsuratIcon}
           width={35}

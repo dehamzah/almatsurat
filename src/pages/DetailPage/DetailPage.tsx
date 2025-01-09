@@ -1,5 +1,5 @@
 import { Link, useLocation } from "wouter";
-import { ArrowLeft } from "lucide-react";
+import { ArrowLeft, Settings } from "lucide-react";
 import { DzikrCard } from "@/components/DzikrCard";
 import MobileWidth from "@/components/MobileWidth";
 import { Button } from "@/components/ui/button";
@@ -16,10 +16,16 @@ export const DetailPage = () => {
 
   return (
     <MobileWidth>
-      <div className="p-2">
+      <div className="p-2 flex justify-between">
         <Button variant="ghost" size="icon" asChild={true}>
           <Link href="/">
             <ArrowLeft />
+          </Link>
+        </Button>
+
+        <Button variant="ghost" size="icon" asChild={true}>
+          <Link href="/settings">
+            <Settings />
           </Link>
         </Button>
       </div>
