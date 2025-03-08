@@ -66,3 +66,18 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* Arabic Font */
+@font-face {
+  font-family: "Uthmanic";
+  src: url("/fonts/KFGQPC Uthmanic Script HAFS Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Use this class for Arabic text */
+.arabic-text {
+  font-family: "Uthmanic", serif;
+  direction: rtl;
+}

@@ -31,7 +31,7 @@ const SubDzikrItems: React.FC<SubDzikrItemsProps> = ({
         {subDzikr.map((child, index) => (
           <span
             key={index}
-            className="text-base dark:text-slate-200 ml-2 inline"
+            className="font-uthmanic leading-9 text-lg dark:text-slate-200 ml-2 inline"
           >
             {child.arabic}
           </span>
@@ -43,7 +43,7 @@ const SubDzikrItems: React.FC<SubDzikrItemsProps> = ({
           {subDzikr.map((child, index) => (
             <span
               key={index}
-              className="text-sm mt-2 text-slate-700 dark:text-slate-400 ml-2 inline"
+              className="text-sm leading-3 mt-2 text-slate-700 dark:text-slate-400 ml-2 inline"
             >
               {child.latin}.
             </span>
@@ -56,7 +56,7 @@ const SubDzikrItems: React.FC<SubDzikrItemsProps> = ({
           {subDzikr.map((child, index) => (
             <span
               key={index}
-              className="text-sm mt-2 text-slate-700 dark:text-slate-400 ml-2 inline"
+              className="text-sm leading-3 mt-2 text-slate-700 dark:text-slate-400 ml-2 inline"
             >
               {child.translation}
             </span>
