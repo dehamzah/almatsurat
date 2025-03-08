@@ -78,19 +78,6 @@ export const SettingsPage = () => {
               <div className="grid gap-4">
                 <div className="flex items-center justify-between">
                   <div className="space-y-1">
-                    <p className="text-sm font-medium leading-none">
-                      Mode Gelap
-                    </p>
-                  </div>
-                  <Switch
-                    id="dark-mode"
-                    checked={darkMode}
-                    onClick={toggleDarkMode}
-                  />
-                </div>
-
-                <div className="flex items-center justify-between">
-                  <div className="space-y-1">
                     <p className="text-sm font-medium leading-none">Tema</p>
                   </div>
                   <DropdownMenu>
