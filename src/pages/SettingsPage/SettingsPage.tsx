@@ -104,37 +104,40 @@ export const SettingsPage = () => {
                   />
                 </div>
 
-                <div className="flex items-center justify-between">
-                  <div className="space-y-1">
-                    <p className="text-sm font-medium leading-none">
-                      Ukuran Tulisan
-                    </p>
+                {/* todo: implement font size setting */}
+                {false && (
+                  <div className="flex items-center justify-between">
+                    <div className="space-y-1">
+                      <p className="text-sm font-medium leading-none">
+                        Ukuran Tulisan
+                      </p>
+                    </div>
+                    <DropdownMenu>
+                      <DropdownMenuTrigger asChild>
+                        <Button variant="outline" size="sm">
+                          <TextIcon className="h-4 w-4 mr-2" />
+                          {fontSizeDisplayMap[fontSize]}
+                        </Button>
+                      </DropdownMenuTrigger>
+                      <DropdownMenuContent align="end">
+                        <DropdownMenuRadioGroup
+                          value={fontSize}
+                          onValueChange={handleFontSizeChange}
+                        >
+                          <DropdownMenuRadioItem value="sm">
+                            {fontSizeDisplayMap["sm"]}
+                          </DropdownMenuRadioItem>
+                          <DropdownMenuRadioItem value="base">
+                            {fontSizeDisplayMap["base"]}
+                          </DropdownMenuRadioItem>
+                          <DropdownMenuRadioItem value="lg">
+                            {fontSizeDisplayMap["lg"]}
+                          </DropdownMenuRadioItem>
+                        </DropdownMenuRadioGroup>
+                      </DropdownMenuContent>
+                    </DropdownMenu>
                   </div>
-                  <DropdownMenu>
-                    <DropdownMenuTrigger asChild>
-                      <Button variant="outline" size="sm">
-                        <TextIcon className="h-4 w-4 mr-2" />
-                        {fontSizeDisplayMap[fontSize]}
-                      </Button>
-                    </DropdownMenuTrigger>
-                    <DropdownMenuContent align="end">
-                      <DropdownMenuRadioGroup
-                        value={fontSize}
-                        onValueChange={handleFontSizeChange}
-                      >
-                        <DropdownMenuRadioItem value="sm">
-                          {fontSizeDisplayMap["sm"]}
-                        </DropdownMenuRadioItem>
-                        <DropdownMenuRadioItem value="base">
-                          {fontSizeDisplayMap["base"]}
-                        </DropdownMenuRadioItem>
-                        <DropdownMenuRadioItem value="lg">
-                          {fontSizeDisplayMap["lg"]}
-                        </DropdownMenuRadioItem>
-                      </DropdownMenuRadioGroup>
-                    </DropdownMenuContent>
-                  </DropdownMenu>
-                </div>
+                )}
               </div>
             </div>
           </div>
