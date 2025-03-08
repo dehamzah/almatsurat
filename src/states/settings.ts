@@ -42,7 +42,7 @@ export const settingDarkModeAtom = atomWithStorage(
 );
 export const settingShowLatinAtom = atomWithStorage(
   SETTING_SHOW_LATIN,
-  getDefaultValueFromLocalStorage<boolean>(SETTING_SHOW_LATIN, true)
+  getDefaultValueFromLocalStorage<boolean>(SETTING_SHOW_LATIN, false)
 );
 export const settingShowTranslationAtom = atomWithStorage(
   SETTING_SHOW_TRANSLATION,
