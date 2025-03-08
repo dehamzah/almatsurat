@@ -31,7 +31,7 @@ const SubDzikrItems: React.FC<SubDzikrItemsProps> = ({
         {subDzikr.map((child, index) => (
           <span
             key={index}
-            className="font-uthmanic leading-9 text-lg dark:text-slate-200 ml-2 inline"
+            className="font-uthmanic leading-9 text-xl dark:text-slate-200 ml-2 inline"
           >
             {child.arabic}
           </span>
