@@ -29,7 +29,10 @@ const SubDzikrItems: React.FC<SubDzikrItemsProps> = ({
     <>
       <div className="leading-8">
         {subDzikr.map((child, index) => (
-          <span key={index} className="text-base ml-2 inline">
+          <span
+            key={index}
+            className="text-base dark:text-slate-200 ml-2 inline"
+          >
             {child.arabic}
           </span>
         ))}
@@ -40,7 +43,7 @@ const SubDzikrItems: React.FC<SubDzikrItemsProps> = ({
           {subDzikr.map((child, index) => (
             <span
               key={index}
-              className="text-sm mt-2 text-slate-700 ml-2 inline"
+              className="text-sm mt-2 text-slate-700 dark:text-slate-400 ml-2 inline"
             >
               {child.latin}.
             </span>
@@ -53,7 +56,7 @@ const SubDzikrItems: React.FC<SubDzikrItemsProps> = ({
           {subDzikr.map((child, index) => (
             <span
               key={index}
-              className="text-sm mt-2 text-slate-700 ml-2 inline"
+              className="text-sm mt-2 text-slate-700 dark:text-slate-400 ml-2 inline"
             >
               {child.translation}
             </span>
@@ -74,7 +77,7 @@ export const DzikrCard: React.FC<DzikrCardProps> = ({
     <div className={className}>
       <Card className="text-right">
         <CardHeader>
-          <CardTitle>{dzikr.title}</CardTitle>
+          <CardTitle className="dark:text-slate-200">{dzikr.title}</CardTitle>
         </CardHeader>
         <CardContent>
           {dzikr.children && (
@@ -86,7 +89,9 @@ export const DzikrCard: React.FC<DzikrCardProps> = ({
           )}
         </CardContent>
         <CardFooter>
-          <p className="w-full text-sm text-slate-700">{dzikr.repeat}x</p>
+          <p className="w-full text-sm text-slate-700 dark:text-slate-500">
+            {dzikr.repeat}x
+          </p>
         </CardFooter>
       </Card>
     </div>

@@ -19,6 +19,7 @@ import {
   settingShowLatinAtom,
   settingShowTranslationAtom,
 } from "@/states/settings";
+import { Theme, useTheme } from "@/components/ThemeProvider/ThemeProvider";
 
 const sampleDzikr = dzikrData[0];
 
@@ -30,16 +31,26 @@ export const SettingsPage = () => {
   const [darkMode, setDarkMode] = useAtom(settingDarkModeAtom);
   const [fontSize, setFontSize] = useAtom(settingFontSizeAtom);
 
+  const { theme, setTheme } = useTheme();
+
   const toggleShowLatin = () => setShowLatin(!showLatin);
   const toggleShowTranslation = () => setShowTranslation(!showTranslation);
   const toggleDarkMode = () => setDarkMode(!darkMode);
 
   const handleFontSizeChange = (value: string) => setFontSize(value);
 
+  const handleThemeChange = (value: string) => setTheme(value as Theme);
+
   const fontSizeDisplayMap: Record<string, string> = {
     sm: "Kecil",
     base: "Sedang",
     lg: "Besar",
+  };
+
+  const themeDisplayMap: Record<string, string> = {
+    system: "Sistem",
+    light: "Terang",
+    dark: "Gelap",
   };
 
   return (
@@ -76,6 +87,36 @@ export const SettingsPage = () => {
                     checked={darkMode}
                     onClick={toggleDarkMode}
                   />
+                </div>
+
+                <div className="flex items-center justify-between">
+                  <div className="space-y-1">
+                    <p className="text-sm font-medium leading-none">Tema</p>
+                  </div>
+                  <DropdownMenu>
+                    <DropdownMenuTrigger asChild>
+                      <Button variant="outline" size="sm">
+                        <TextIcon className="h-4 w-4 mr-2" />
+                        {themeDisplayMap[theme]}
+                      </Button>
+                    </DropdownMenuTrigger>
+                    <DropdownMenuContent align="end">
+                      <DropdownMenuRadioGroup
+                        value={theme}
+                        onValueChange={handleThemeChange}
+                      >
+                        <DropdownMenuRadioItem value="system">
+                          {themeDisplayMap["system"]}
+                        </DropdownMenuRadioItem>
+                        <DropdownMenuRadioItem value="light">
+                          {themeDisplayMap["light"]}
+                        </DropdownMenuRadioItem>
+                        <DropdownMenuRadioItem value="dark">
+                          {themeDisplayMap["dark"]}
+                        </DropdownMenuRadioItem>
+                      </DropdownMenuRadioGroup>
+                    </DropdownMenuContent>
+                  </DropdownMenu>
                 </div>
 
                 <div className="flex items-center justify-between">
@@ -145,7 +186,7 @@ export const SettingsPage = () => {
           <div className="h-px bg-gray-200 my-8"></div>
 
           <div>
-            <h2 className="text-lg font-bold mb-4">Preview</h2>
+            <h2 className="text-lg font-bold mb-4">Pratinjau</h2>
             <div className="mb-4">
               <DzikrCard
                 dzikr={sampleDzikr}
