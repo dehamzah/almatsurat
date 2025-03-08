@@ -1,12 +1,5 @@
 import { Button } from "@/components/ui/button";
 import {
-  Card,
-  CardHeader,
-  CardTitle,
-  CardDescription,
-  CardContent,
-} from "@/components/ui/card";
-import {
   DropdownMenu,
   DropdownMenuTrigger,
   DropdownMenuContent,
@@ -17,8 +10,38 @@ import { Switch } from "@/components/ui/switch";
 import { Link } from "wouter";
 import { ArrowLeft } from "lucide-react";
 import MobileWidth from "@/components/MobileWidth";
+import { DzikrCard } from "@/components/DzikrCard";
+import { dzikrData } from "@/data/dzikr";
+import { useAtom } from "jotai";
+import {
+  settingDarkModeAtom,
+  settingFontSizeAtom,
+  settingShowLatinAtom,
+  settingShowTranslationAtom,
+} from "@/states/settings";
+
+const sampleDzikr = dzikrData[0];
 
 export const SettingsPage = () => {
+  const [showLatin, setShowLatin] = useAtom(settingShowLatinAtom);
+  const [showTranslation, setShowTranslation] = useAtom(
+    settingShowTranslationAtom
+  );
+  const [darkMode, setDarkMode] = useAtom(settingDarkModeAtom);
+  const [fontSize, setFontSize] = useAtom(settingFontSizeAtom);
+
+  const toggleShowLatin = () => setShowLatin(!showLatin);
+  const toggleShowTranslation = () => setShowTranslation(!showTranslation);
+  const toggleDarkMode = () => setDarkMode(!darkMode);
+
+  const handleFontSizeChange = (value: string) => setFontSize(value);
+
+  const fontSizeDisplayMap: Record<string, string> = {
+    sm: "Kecil",
+    base: "Sedang",
+    lg: "Besar",
+  };
+
   return (
     <MobileWidth>
       <div className="p-2">
@@ -37,67 +60,98 @@ export const SettingsPage = () => {
         </div>
 
         <div className="mx-4">
-          <Card>
-            <CardHeader>
-              <CardTitle>Tampilan</CardTitle>
-              <CardDescription>Atur tema dan tampilan konten</CardDescription>
-            </CardHeader>
-            <CardContent className="grid gap-4">
-              <div className="flex items-center justify-between">
-                <div className="space-y-1">
-                  <p className="text-sm font-medium leading-none">Mode Gelap</p>
-                </div>
-                <Switch id="dark-mode" />
-              </div>
+          <div>
+            <div>
+              <h2 className="text-lg font-bold mb-4">Tampilan</h2>
 
-              <div className="flex items-center justify-between">
-                <div className="space-y-1">
-                  <p className="text-sm font-medium leading-none">
-                    Tampilkan Latin
-                  </p>
+              <div className="grid gap-4">
+                <div className="flex items-center justify-between">
+                  <div className="space-y-1">
+                    <p className="text-sm font-medium leading-none">
+                      Mode Gelap
+                    </p>
+                  </div>
+                  <Switch
+                    id="dark-mode"
+                    checked={darkMode}
+                    onClick={toggleDarkMode}
+                  />
                 </div>
-                <Switch id="show-latin" />
-              </div>
 
-              <div className="flex items-center justify-between">
-                <div className="space-y-1">
-                  <p className="text-sm font-medium leading-none">
-                    Tampilkan Arti
-                  </p>
+                <div className="flex items-center justify-between">
+                  <div className="space-y-1">
+                    <p className="text-sm font-medium leading-none">
+                      Tampilkan Latin
+                    </p>
+                  </div>
+                  <Switch
+                    id="show-latin"
+                    checked={showLatin}
+                    onClick={toggleShowLatin}
+                  />
                 </div>
-                <Switch id="show-translation" />
-              </div>
 
-              <div className="flex items-center justify-between">
-                <div className="space-y-1">
-                  <p className="text-sm font-medium leading-none">
-                    Ukuran Tulisan
-                  </p>
+                <div className="flex items-center justify-between">
+                  <div className="space-y-1">
+                    <p className="text-sm font-medium leading-none">
+                      Tampilkan Arti
+                    </p>
+                  </div>
+                  <Switch
+                    id="show-translation"
+                    checked={showTranslation}
+                    onClick={toggleShowTranslation}
+                  />
                 </div>
-                <DropdownMenu>
-                  <DropdownMenuTrigger asChild>
-                    <Button variant="outline" size="sm">
-                      <TextIcon className="h-4 w-4 mr-2" />
-                      Sedang
-                    </Button>
-                  </DropdownMenuTrigger>
-                  <DropdownMenuContent align="end">
-                    <DropdownMenuRadioGroup value="medium">
-                      <DropdownMenuRadioItem value="small">
-                        Kecil
-                      </DropdownMenuRadioItem>
-                      <DropdownMenuRadioItem value="medium">
-                        Sedang
-                      </DropdownMenuRadioItem>
-                      <DropdownMenuRadioItem value="large">
-                        Besar
-                      </DropdownMenuRadioItem>
-                    </DropdownMenuRadioGroup>
-                  </DropdownMenuContent>
-                </DropdownMenu>
+
+                <div className="flex items-center justify-between">
+                  <div className="space-y-1">
+                    <p className="text-sm font-medium leading-none">
+                      Ukuran Tulisan
+                    </p>
+                  </div>
+                  <DropdownMenu>
+                    <DropdownMenuTrigger asChild>
+                      <Button variant="outline" size="sm">
+                        <TextIcon className="h-4 w-4 mr-2" />
+                        {fontSizeDisplayMap[fontSize]}
+                      </Button>
+                    </DropdownMenuTrigger>
+                    <DropdownMenuContent align="end">
+                      <DropdownMenuRadioGroup
+                        value={fontSize}
+                        onValueChange={handleFontSizeChange}
+                      >
+                        <DropdownMenuRadioItem value="sm">
+                          {fontSizeDisplayMap["sm"]}
+                        </DropdownMenuRadioItem>
+                        <DropdownMenuRadioItem value="base">
+                          {fontSizeDisplayMap["base"]}
+                        </DropdownMenuRadioItem>
+                        <DropdownMenuRadioItem value="lg">
+                          {fontSizeDisplayMap["lg"]}
+                        </DropdownMenuRadioItem>
+                      </DropdownMenuRadioGroup>
+                    </DropdownMenuContent>
+                  </DropdownMenu>
+                </div>
               </div>
-            </CardContent>
-          </Card>
+            </div>
+          </div>
+
+          <div className="h-px bg-gray-200 my-8"></div>
+
+          <div>
+            <h2 className="text-lg font-bold mb-4">Preview</h2>
+            <div className="mb-4">
+              <DzikrCard
+                dzikr={sampleDzikr}
+                className="mx-0"
+                showLatin={showLatin}
+                showTranslation={showTranslation}
+              />
+            </div>
+          </div>
         </div>
       </main>
     </MobileWidth>

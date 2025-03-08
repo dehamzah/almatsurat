@@ -6,6 +6,11 @@ import { Button } from "@/components/ui/button";
 import { dzikrData } from "@/data/dzikr";
 import { ROUTE_TITLES, ROUTE_TAGS } from "@/constants";
 import { getDzikrByTags } from "@/utils";
+import { useAtom } from "jotai";
+import {
+  settingShowLatinAtom,
+  settingShowTranslationAtom,
+} from "@/states/settings";
 
 export const DetailPage = () => {
   const [location] = useLocation();
@@ -13,6 +18,9 @@ export const DetailPage = () => {
   const PAGE_TITLE = ROUTE_TITLES[routePath];
   const detailPageTags = ROUTE_TAGS[routePath];
   const filteredDzikr = getDzikrByTags(dzikrData, detailPageTags);
+
+  const [showLatin] = useAtom(settingShowLatinAtom);
+  const [showTranslation] = useAtom(settingShowTranslationAtom);
 
   return (
     <MobileWidth>
@@ -41,8 +49,8 @@ export const DetailPage = () => {
               key={index}
               dzikr={dzikr}
               className="mb-4 mx-4"
-              showLatin={false}
-              showTranslation={true}
+              showLatin={showLatin}
+              showTranslation={showTranslation}
             />
           );
         })}
