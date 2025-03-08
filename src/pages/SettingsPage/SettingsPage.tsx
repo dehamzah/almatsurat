@@ -14,7 +14,6 @@ import { DzikrCard } from "@/components/DzikrCard";
 import { dzikrData } from "@/data/dzikr";
 import { useAtom } from "jotai";
 import {
-  settingDarkModeAtom,
   settingFontSizeAtom,
   settingShowLatinAtom,
   settingShowTranslationAtom,
@@ -28,14 +27,12 @@ export const SettingsPage = () => {
   const [showTranslation, setShowTranslation] = useAtom(
     settingShowTranslationAtom
   );
-  const [darkMode, setDarkMode] = useAtom(settingDarkModeAtom);
   const [fontSize, setFontSize] = useAtom(settingFontSizeAtom);
 
   const { theme, setTheme } = useTheme();
 
   const toggleShowLatin = () => setShowLatin(!showLatin);
   const toggleShowTranslation = () => setShowTranslation(!showTranslation);
-  const toggleDarkMode = () => setDarkMode(!darkMode);
 
   const handleFontSizeChange = (value: string) => setFontSize(value);
 
