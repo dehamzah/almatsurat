@@ -10,6 +10,7 @@ import { useAtom } from "jotai";
 import {
   settingShowLatinAtom,
   settingShowTranslationAtom,
+  settingFontSizeArabicAtom,
 } from "@/states/settings";
 
 export const DetailPage = () => {
@@ -21,6 +22,7 @@ export const DetailPage = () => {
 
   const [showLatin] = useAtom(settingShowLatinAtom);
   const [showTranslation] = useAtom(settingShowTranslationAtom);
+  const [fontSizeArabic] = useAtom(settingFontSizeArabicAtom);
 
   return (
     <MobileWidth>
@@ -51,6 +53,7 @@ export const DetailPage = () => {
               className="mb-4 mx-4"
               showLatin={showLatin}
               showTranslation={showTranslation}
+              fontSizeDzikr={fontSizeArabic}
             />
           );
         })}

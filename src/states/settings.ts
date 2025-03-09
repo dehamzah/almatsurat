@@ -33,7 +33,7 @@ function getDefaultValueFromLocalStorage<T>(key: string, fallback: T): T {
 const SETTING_DARK_MODE = "settingDarkMode";
 const SETTING_SHOW_LATIN = "settingShowLatin";
 const SETTING_SHOW_TRANSLATION = "settingShowTranslation";
-const SETTING_FONT_SIZE = "settingFontSize";
+const SETTING_FONT_SIZE_ARABIC = "settingFontSizeArabic";
 
 // Provide fallback values for each setting
 export const settingDarkModeAtom = atomWithStorage(
@@ -48,7 +48,9 @@ export const settingShowTranslationAtom = atomWithStorage(
   SETTING_SHOW_TRANSLATION,
   getDefaultValueFromLocalStorage<boolean>(SETTING_SHOW_TRANSLATION, true)
 );
-export const settingFontSizeAtom = atomWithStorage(
-  SETTING_FONT_SIZE,
-  getDefaultValueFromLocalStorage<string>(SETTING_FONT_SIZE, "sm")
+export const settingFontSizeArabicAtom = atomWithStorage(
+  SETTING_FONT_SIZE_ARABIC,
+  Number(
+    getDefaultValueFromLocalStorage<string>(SETTING_FONT_SIZE_ARABIC, "24")
+  )
 );
