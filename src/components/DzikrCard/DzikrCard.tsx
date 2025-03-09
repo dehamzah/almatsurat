@@ -80,11 +80,11 @@ export const DzikrCard: React.FC<DzikrCardProps> = ({
 }) => {
   return (
     <div className={className}>
-      <Card className="text-right">
-        <CardHeader>
+      <Card className="text-center">
+        <CardHeader className="p-4 pt-8">
           <CardTitle className="dark:text-slate-200">{dzikr.title}</CardTitle>
         </CardHeader>
-        <CardContent>
+        <CardContent className="p-4">
           {dzikr.children && (
             <SubDzikrItems
               subDzikr={dzikr.children}
