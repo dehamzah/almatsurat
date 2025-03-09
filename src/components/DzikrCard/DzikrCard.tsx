@@ -12,18 +12,21 @@ interface DzikrCardProps extends React.HTMLAttributes<HTMLDivElement> {
   dzikr: Dzikr;
   showLatin: boolean;
   showTranslation: boolean;
+  fontSizeDzikr?: number;
 }
 
 interface SubDzikrItemsProps extends React.HTMLAttributes<HTMLDivElement> {
   subDzikr: SubDzikr[];
   showLatin: boolean;
   showTranslation: boolean;
+  fontSizeDzikr?: number;
 }
 
 const SubDzikrItems: React.FC<SubDzikrItemsProps> = ({
   subDzikr,
   showLatin,
   showTranslation,
+  fontSizeDzikr = 24,
 }) => {
   return (
     <>
@@ -31,7 +34,8 @@ const SubDzikrItems: React.FC<SubDzikrItemsProps> = ({
         {subDzikr.map((child, index) => (
           <span
             key={index}
-            className="font-uthmanic leading-9 text-xl dark:text-slate-200 ml-2 inline"
+            className={`font-uthmanic leading-9 dark:text-slate-200 ml-2 inline`}
+            style={{ fontSize: `${fontSizeDzikr}px` }}
           >
             {child.arabic}
           </span>
@@ -72,6 +76,7 @@ export const DzikrCard: React.FC<DzikrCardProps> = ({
   className,
   showLatin,
   showTranslation,
+  fontSizeDzikr = 24,
 }) => {
   return (
     <div className={className}>
@@ -85,6 +90,7 @@ export const DzikrCard: React.FC<DzikrCardProps> = ({
               subDzikr={dzikr.children}
               showLatin={showLatin}
               showTranslation={showTranslation}
+              fontSizeDzikr={fontSizeDzikr}
             />
           )}
         </CardContent>

@@ -14,11 +14,12 @@ import { DzikrCard } from "@/components/DzikrCard";
 import { dzikrData } from "@/data/dzikr";
 import { useAtom } from "jotai";
 import {
-  settingFontSizeAtom,
+  settingFontSizeArabicAtom,
   settingShowLatinAtom,
   settingShowTranslationAtom,
 } from "@/states/settings";
 import { Theme, useTheme } from "@/components/ThemeProvider/ThemeProvider";
+import NumberControl from "@/components/NumberControl";
 
 const sampleDzikr = dzikrData[0];
 
@@ -27,22 +28,21 @@ export const SettingsPage = () => {
   const [showTranslation, setShowTranslation] = useAtom(
     settingShowTranslationAtom
   );
-  const [fontSize, setFontSize] = useAtom(settingFontSizeAtom);
+  const [fontSizeArabic, setFontSizeArabic] = useAtom(
+    settingFontSizeArabicAtom
+  );
 
   const { theme, setTheme } = useTheme();
 
   const toggleShowLatin = () => setShowLatin(!showLatin);
   const toggleShowTranslation = () => setShowTranslation(!showTranslation);
 
-  const handleFontSizeChange = (value: string) => setFontSize(value);
+  const handleFontSizeReduce = () =>
+    setFontSizeArabic((prevValue) => prevValue - 1);
+  const handleFontSizeIncrement = () =>
+    setFontSizeArabic((prevValue) => prevValue + 1);
 
   const handleThemeChange = (value: string) => setTheme(value as Theme);
-
-  const fontSizeDisplayMap: Record<string, string> = {
-    sm: "Kecil",
-    base: "Sedang",
-    lg: "Besar",
-  };
 
   const themeDisplayMap: Record<string, string> = {
     system: "Sistem",
@@ -129,40 +129,18 @@ export const SettingsPage = () => {
                   />
                 </div>
 
-                {/* todo: implement font size setting */}
-                {false && (
-                  <div className="flex items-center justify-between">
-                    <div className="space-y-1">
-                      <p className="text-sm font-medium leading-none">
-                        Ukuran Tulisan
-                      </p>
-                    </div>
-                    <DropdownMenu>
-                      <DropdownMenuTrigger asChild>
-                        <Button variant="outline" size="sm">
-                          <TextIcon className="h-4 w-4 mr-2" />
-                          {fontSizeDisplayMap[fontSize]}
-                        </Button>
-                      </DropdownMenuTrigger>
-                      <DropdownMenuContent align="end">
-                        <DropdownMenuRadioGroup
-                          value={fontSize}
-                          onValueChange={handleFontSizeChange}
-                        >
-                          <DropdownMenuRadioItem value="sm">
-                            {fontSizeDisplayMap["sm"]}
-                          </DropdownMenuRadioItem>
-                          <DropdownMenuRadioItem value="base">
-                            {fontSizeDisplayMap["base"]}
-                          </DropdownMenuRadioItem>
-                          <DropdownMenuRadioItem value="lg">
-                            {fontSizeDisplayMap["lg"]}
-                          </DropdownMenuRadioItem>
-                        </DropdownMenuRadioGroup>
-                      </DropdownMenuContent>
-                    </DropdownMenu>
+                <div className="flex items-center justify-between">
+                  <div className="space-y-1">
+                    <p className="text-sm font-medium leading-none">
+                      Ukuran Tulisan Arab
+                    </p>
                   </div>
-                )}
+                  <NumberControl
+                    value={fontSizeArabic}
+                    onClickReduce={handleFontSizeReduce}
+                    onClickIncrement={handleFontSizeIncrement}
+                  />
+                </div>
               </div>
             </div>
           </div>
@@ -177,6 +155,7 @@ export const SettingsPage = () => {
                 className="mx-0"
                 showLatin={showLatin}
                 showTranslation={showTranslation}
+                fontSizeDzikr={fontSizeArabic}
               />
             </div>
           </div>
