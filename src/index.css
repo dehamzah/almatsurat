@@ -70,10 +70,10 @@
 /* Arabic Font */
 @font-face {
   font-family: "Uthmanic";
-  src: url("/fonts/KFGQPC Uthmanic Script HAFS Regular.otf") format("opentype");
+  src: url("/fonts/uthmanic.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: fallback;
 }
 
 /* Use this class for Arabic text */
