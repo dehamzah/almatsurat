@@ -80,4 +80,5 @@
 .arabic-text {
   font-family: "Uthmanic", serif;
   direction: rtl;
+  line-height: 3rem;
 }
