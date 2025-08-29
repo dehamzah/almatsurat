@@ -51,6 +51,6 @@ export const settingShowTranslationAtom = atomWithStorage(
 export const settingFontSizeArabicAtom = atomWithStorage(
   SETTING_FONT_SIZE_ARABIC,
   Number(
-    getDefaultValueFromLocalStorage<string>(SETTING_FONT_SIZE_ARABIC, "24")
+    getDefaultValueFromLocalStorage<string>(SETTING_FONT_SIZE_ARABIC, "28")
   )
 );
