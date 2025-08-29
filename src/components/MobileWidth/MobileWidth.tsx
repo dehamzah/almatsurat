@@ -2,7 +2,7 @@ import React from "react";
 import { cva, type VariantProps } from "class-variance-authority";
 import { cn } from "@/lib/utils";
 
-const mobileWidthVariants = cva("max-w-[550px] mx-auto");
+const mobileWidthVariants = cva("max-w-[700px] mx-auto");
 
 interface MobileWidthProps
   extends React.HTMLAttributes<HTMLDivElement>,
