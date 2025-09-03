@@ -109,7 +109,7 @@ export const dzikrData: Dzikr[] = [
     children: [
       {
         arabic:
-          "ٱللَّهُ لَآ إِلَـٰهَ إِلَّا هُوَ ٱلْحَىُّ ٱلْقَيُّومُ ۚ لَا تَأْخُذُهُۥ سِنَةٌۭ وَلَا نَوْمٌۭ ۚ لَّهُۥ مَا فِى ٱلسَّمَـٰوَٰتِ وَمَا فِى ٱلْأَرْضِ ۗ مَن ذَا ٱلَّذِى يَشْفَعُ عِندَهُۥٓ إِلَّا بِإِذْنِهِۦ ۚ يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ ۖ وَلَا يُحِيطُونَ بِشَىْءٍۢ مِّنْ عِلْمِهِۦٓ إِلَّا بِمَا شَآءَ ۚ وَسِعَ كُرْسِيُّهُ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضَ ۖ وَلَا يَـُٔودُهُۥ حِفْظُهُمَا ۚ وَهُوَ ٱلْعَلِىُّ ٱلْعَظِيمُ ٢٥٥",
+          "ٱللَّهُ لَآ إِلَـٰهَ إِلَّا هُوَ ٱلْحَىُّ ٱلْقَيُّومُ ۚ لَا تَأْخُذُهُۥ سِنَةٌ وَلَا نَوْمٌ ۚ لَّهُۥ مَا فِى ٱلسَّمَـٰوَٰتِ وَمَا فِى ٱلْأَرْضِ ۗ مَن ذَا ٱلَّذِى يَشْفَعُ عِندَهُۥٓ إِلَّا بِإِذْنِهِۦ ۚ يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ ۖ وَلَا يُحِيطُونَ بِشَىْءٍۢ مِّنْ عِلْمِهِۦٓ إِلَّا بِمَا شَآءَ ۚ وَسِعَ كُرْسِيُّهُ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضَ ۖ وَلَا يَـُٔودُهُۥ حِفْظُهُمَا ۚ وَهُوَ ٱلْعَلِىُّ ٱلْعَظِيمُ ٢٥٥",
         latin:
           "Allāhu lā ilāha illā huwal-ḥayyu al-qayyūm lā ta’khudhuhū sinatun walā nawm, lahu mā fī as-samāwāti wa mā fī al-arḍ, man dhā alladhī yashfa'u 'indahu illā bi-idhnih ya'lamu mā bayna aydīhim wa mā khalfahum walā yuḥīṭūna bishay'in min 'ilmihī illā bimā shā’, wasi’a kursiyyuhus-samāwāti wal-arḍ, walā ya'ūduhū ḥifẓuhumā, wahuwal-'aliyyul-'aẓīm",
         translation:
@@ -125,7 +125,7 @@ export const dzikrData: Dzikr[] = [
       },
       {
         arabic:
-          "ٱللَّهُ وَلِىُّ ٱلَّذِينَ ءَامَنُوا۟ يُخْرِجُهُم مِّنَ ٱلظُّلُمَـٰتِ إِلَى ٱلنُّورِ ۖ وَٱلَّذِينَ كَفَرُوٓا۟ أَوْلِيَآؤُهُمُ ٱلطَّـٰغُوتُ يُخْرِجُونَهُم مِّنَ ٱلنُّورِ إِلَى ٱلظُّلُمَـٰتِ ۗ أُو۟لَـٰٓئِكَ أَصْحَـٰبُ ٱلنَّارِ ۖ هُمْ فِيهَا خَـٰلِدُونَ ٢٥٧",
+          "ٱللَّهُ وَلِىُّ ٱلَّذِينَ ءَامَنُوا يُخْرِجُهُم مِّنَ ٱلظُّلُمَـٰتِ إِلَى ٱلنُّورِ ۖ وَٱلَّذِينَ كَفَرُوٓا أَوْلِيَآؤُهُمُ ٱلطَّـٰغُوتُ يُخْرِجُونَهُم مِّنَ ٱلنُّورِ إِلَى ٱلظُّلُمَـٰتِ ۗ أُولَـٰٓئِكَ أَصْحَـٰبُ ٱلنَّارِ ۖ هُمْ فِيهَا خَـٰلِدُونَ ٢٥٧",
         latin:
           "Allāhu waliyyu alladhīna āmanū yukhrijuhum mina aẓ-ẓulumāti ilan-nūr, walladhīna kafarū awliyāuhumu aṭ-ṭāghūtu yukhrijūnahum mina an-nūri ilā aẓ-ẓulumāt, ulā’ika aṣḥābu an-nār, hum fīhā khālidūn",
         translation:
@@ -140,7 +140,7 @@ export const dzikrData: Dzikr[] = [
     children: [
       {
         arabic:
-          "لِّلَّهِ مَا فِى ٱلسَّمَـٰوَٰتِ وَمَا فِى ٱلْأَرْضِ ۗ وَإِن تُبْدُوا۟ مَا فِىٓ أَنفُسِكُمْ أَوْ تُخْفُوهُ يُحَاسِبْكُم بِهِ ٱللَّهُ ۖ فَيَغْفِرُ لِمَن يَشَآءُ وَيُعَذِّبُ مَن يَشَآءُ ۗ وَٱللَّهُ عَلَىٰ كُلِّ شَىْءٍۢ قَدِيرٌ ٢٨٤",
+          "لِّلَّهِ مَا فِى ٱلسَّمَـٰوَٰتِ وَمَا فِى ٱلْأَرْضِ ۗ وَإِن تُبْدُوا مَا فِىٓ أَنفُسِكُمْ أَوْ تُخْفُوهُ يُحَاسِبْكُم بِهِ ٱللَّهُ ۖ فَيَغْفِرُ لِمَن يَشَآءُ وَيُعَذِّبُ مَن يَشَآءُ ۗ وَٱللَّهُ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ ٢٨٤",
         latin:
           "Lillāhi mā fī as-samāwāti wa mā fī al-arḍi, wa in tubdū mā fī anfusikum aw tukhfūhu yuḥāsibkum bihillāh, fa-yaghfiru liman yashā'u wa yu‘adhdhibu man yashā'u, wa-Allāhu ‘alā kulli shay'in qadīr.",
         translation:
@@ -148,7 +148,7 @@ export const dzikrData: Dzikr[] = [
       },
       {
         arabic:
-          "ءَامَنَ ٱلرَّسُولُ بِمَآ أُنزِلَ إِلَيْهِ مِن رَّبِّهِۦ وَٱلْمُؤْمِنُونَ ۚ كُلٌّ ءَامَنَ بِٱللَّهِ وَمَلَـٰٓئِكَتِهِۦ وَكُتُبِهِۦ وَرُسُلِهِۦ لَا نُفَرِّقُ بَيْنَ أَحَدٍۢ مِّن رُّسُلِهِۦ ۚ وَقَالُوا۟ سَمِعْنَا وَأَطَعْنَا ۖ غُفْرَانَكَ رَبَّنَا وَإِلَيْكَ ٱلْمَصِيرُ ٢٨٥",
+          "ءَامَنَ ٱلرَّسُولُ بِمَآ أُنزِلَ إِلَيْهِ مِن رَّبِّهِۦ وَٱلْمُؤْمِنُونَ ۚ كُلٌّ ءَامَنَ بِٱللَّهِ وَمَلَـٰٓئِكَتِهِۦ وَكُتُبِهِۦ وَرُسُلِهِۦ لَا نُفَرِّقُ بَيْنَ أَحَدٍ مِّن رُّسُلِهِۦ ۚ وَقَالُوا سَمِعْنَا وَأَطَعْنَا ۖ غُفْرَانَكَ رَبَّنَا وَإِلَيْكَ ٱلْمَصِيرُ ٢٨٥",
         latin:
           "Aamana ar rusulu bimaa unzila ilaihi mir rabbihii wal mu'minuun kullun aamana billahi wa mala-ikatihi wa kutubihi wa rusulihi laa nufarriqu baina ahadim mir rusulihii wa qalu sami'na wa atho'na ghufranaka rabbana wa ilaikal masiir.",
         translation:
@@ -156,7 +156,7 @@ export const dzikrData: Dzikr[] = [
       },
       {
         arabic:
-          "لَا يُكَلِّفُ ٱللَّهُ نَفْسًا إِلَّا وُسْعَهَا ۚ لَهَا مَا كَسَبَتْ وَعَلَيْهَا مَا ٱكْتَسَبَتْ ۗ رَبَّنَا لَا تُؤَاخِذْنَآ إِن نَّسِينَآ أَوْ أَخْطَأْنَا ۚ رَبَّنَا وَلَا تَحْمِلْ عَلَيْنَآ إِصْرًۭا كَمَا حَمَلْتَهُۥ عَلَى ٱلَّذِينَ مِن قَبْلِنَا ۚ رَبَّنَا وَلَا تُحَمِّلْنَا مَا لَا طَاقَةَ لَنَا بِهِۦ ۖ وَٱعْفُ عَنَّا وَٱغْفِرْ لَنَا وَٱرْحَمْنَآ ۚ أَنتَ مَوْلَىٰنَا فَٱنصُرْنَا عَلَى ٱلْقَوْمِ ٱلْكَـٰفِرِينَ ٢٨٦",
+          "لَا يُكَلِّفُ ٱللَّهُ نَفْسًا إِلَّا وُسْعَهَا ۚ لَهَا مَا كَسَبَتْ وَعَلَيْهَا مَا ٱكْتَسَبَتْ ۗ رَبَّنَا لَا تُؤَاخِذْنَآ إِن نَّسِينَآ أَوْ أَخْطَأْنَا ۚ رَبَّنَا وَلَا تَحْمِلْ عَلَيْنَآ إِصْرًا كَمَا حَمَلْتَهُۥ عَلَى ٱلَّذِينَ مِن قَبْلِنَا ۚ رَبَّنَا وَلَا تُحَمِّلْنَا مَا لَا طَاقَةَ لَنَا بِهِۦ ۖ وَٱعْفُ عَنَّا وَٱغْفِرْ لَنَا وَٱرْحَمْنَآ ۚ أَنتَ مَوْلَىٰنَا فَٱنصُرْنَا عَلَى ٱلْقَوْمِ ٱلْكَـٰفِرِينَ ٢٨٦",
         latin:
           "Laa yukallifullahu nafsan illaa wus'ahaa lahaa maa kasabat wa 'alaihaa maa iktasabat rabbanaa laa tu'aakhidznaaa in nasiinaa aw akhtho'naa rabbanaa wa laa tahmil 'alainaaa isron kamaa hamaltahuu 'alal ladziina min qablinaa rabbanaa wa laa tuhammilnaa maa laa taaqata lanaa bihii wa'fu 'annaa waghfir lanaa warhamnaa anta maulaanaa fanshurnaa 'alal qawmil kaafiriin.",
         translation:
@@ -189,7 +189,7 @@ export const dzikrData: Dzikr[] = [
     children: [
       {
         arabic:
-          "۞ وَعَنَتِ ٱلْوُجُوهُ لِلْحَىِّ ٱلْقَيُّومِ ۖ وَقَدْ خَابَ مَنْ حَمَلَ ظُلْمًۭا ١١١",
+          "وَعَنَتِ ٱلْوُجُوهُ لِلْحَىِّ ٱلْقَيُّومِ ۖ وَقَدْ خَابَ مَنْ حَمَلَ ظُلْمًا ١١١",
         latin:
           "Wa 'anatil-wujụhu lil-ḥayyil-qayyụm, wa qad khāba man ḥamala ẓulmā",
         translation:
@@ -197,7 +197,7 @@ export const dzikrData: Dzikr[] = [
       },
       {
         arabic:
-          "وَمَن يَعْمَلْ مِنَ ٱلصَّـٰلِحَـٰتِ وَهُوَ مُؤْمِنٌۭ فَلَا يَخَافُ ظُلْمًۭا وَلَا هَضْمًۭا ١١٢",
+          "وَمَن يَعْمَلْ مِنَ ٱلصَّـٰلِحَـٰتِ وَهُوَ مُؤْمِنٌ فَلَا يَخَافُ ظُلْمًا وَلَا هَضْمًا ١١٢",
         latin:
           "Wa may ya'mal minaṣ-ṣāliḥāti wa huwa mu'minun fa lā yakhāfu ẓulman wa lā haḍmā",
         translation:
@@ -212,7 +212,7 @@ export const dzikrData: Dzikr[] = [
     children: [
       {
         arabic:
-          "فَإِن تَوَلَّوْا۟ فَقُلْ حَسْبِىَ ٱللَّهُ لَآ إِلَـٰهَ إِلَّا هُوَ ۖ عَلَيْهِ تَوَكَّلْتُ ۖ وَهُوَ رَبُّ ٱلْعَرْشِ ٱلْعَظِيمِ ١٢٩",
+          "فَإِن تَوَلَّوْا فَقُلْ حَسْبِىَ ٱللَّهُ لَآ إِلَـٰهَ إِلَّا هُوَ ۖ عَلَيْهِ تَوَكَّلْتُ ۖ وَهُوَ رَبُّ ٱلْعَرْشِ ٱلْعَظِيمِ ١٢٩",
         latin:
           "Fa in tawallaw fa qul ḥasbiyallāhu lā ilāha illā huw, 'alaihi tawakkalt, wa huwa rabbul-'arsyil-'aẓīm",
         translation:
@@ -227,7 +227,7 @@ export const dzikrData: Dzikr[] = [
     children: [
       {
         arabic:
-          "أَفَحَسِبْتُمْ أَنَّمَا خَلَقْنَـٰكُمْ عَبَثًۭا وَأَنَّكُمْ إِلَيْنَا لَا تُرْجَعُونَ ١١٥",
+          "أَفَحَسِبْتُمْ أَنَّمَا خَلَقْنَـٰكُمْ عَبَثًا وَأَنَّكُمْ إِلَيْنَا لَا تُرْجَعُونَ ١١٥",
         latin:
           "Afa ḥasibtum annamā khalaqnākum 'abaṡan wa annakum ilainā lā turja'ụn",
         translation:
@@ -271,7 +271,7 @@ export const dzikrData: Dzikr[] = [
       },
       {
         arabic:
-          "وَلَهُ ٱلْحَمْدُ فِى ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ وَعَشِيًّۭا وَحِينَ تُظْهِرُونَ ١٨",
+          "وَلَهُ ٱلْحَمْدُ فِى ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ وَعَشِيًّا وَحِينَ تُظْهِرُونَ ١٨",
         latin:
           "Wa lahu l-ḥamdu fī s-samāwāti wa l-arḍi wa ʿashiyyaw wa ḥīna tuẓhirūn",
         translation:
@@ -287,7 +287,7 @@ export const dzikrData: Dzikr[] = [
       },
       {
         arabic:
-          "وَمِنْ ءَايَـٰتِهِۦٓ أَنْ خَلَقَكُم مِّن تُرَابٍۢ ثُمَّ إِذَآ أَنتُم بَشَرٌۭ تَنتَشِرُونَ ٢٠",
+          "وَمِنْ ءَايَـٰتِهِۦٓ أَنْ خَلَقَكُم مِّن تُرَابٍۢ ثُمَّ إِذَآ أَنتُم بَشَرٌ تَنتَشِرُونَ ٢٠",
         latin:
           "Wa min āyātihi an khalaqakum min turābin thumma idhā antum basharun tantashirūn",
         translation:
@@ -295,7 +295,7 @@ export const dzikrData: Dzikr[] = [
       },
       {
         arabic:
-          "وَمِنْ ءَايَـٰتِهِۦٓ أَنْ خَلَقَ لَكُم مِّنْ أَنفُسِكُمْ أَزْوَٰجًۭا لِّتَسْكُنُوٓا۟ إِلَيْهَا وَجَعَلَ بَيْنَكُم مَّوَدَّةًۭ وَرَحْمَةً ۚ إِنَّ فِى ذَٰلِكَ لَـَٔايَـٰتٍۢ لِّقَوْمٍۢ يَتَفَكَّرُونَ ٢١",
+          "وَمِنْ ءَايَـٰتِهِۦٓ أَنْ خَلَقَ لَكُم مِّنْ أَنفُسِكُمْ أَزْوَٰجًا لِّتَسْكُنُوٓا إِلَيْهَا وَجَعَلَ بَيْنَكُم مَّوَدَّةً وَرَحْمَةً ۚ إِنَّ فِى ذَٰلِكَ لَـَٔايَـٰتٍۢ لِّقَوْمٍۢ يَتَفَكَّرُونَ ٢١",
         latin:
           "Wa min āyātihi an khalaqa lakum min anfusikum azwājan litaskunū ilaihā wa jaʿala baynakum mawaddatan wa raḥmah, inna fī dhālika laāyātin liqawmin yatafakkarūn",
         translation:
@@ -319,7 +319,7 @@ export const dzikrData: Dzikr[] = [
       },
       {
         arabic:
-          "وَمِنْ ءَايَـٰتِهِۦ يُرِيكُمُ ٱلْبَرْقَ خَوْفًۭا وَطَمَعًۭا وَيُنَزِّلُ مِنَ ٱلسَّمَآءِ مَآءًۭ فَيُحْىِۦ بِهِ ٱلْأَرْضَ بَعْدَ مَوْتِهَآ ۚ إِنَّ فِى ذَٰلِكَ لَـَٔايَـٰتٍۢ لِّقَوْمٍۢ يَعْقِلُونَ ٢٤",
+          "وَمِنْ ءَايَـٰتِهِۦ يُرِيكُمُ ٱلْبَرْقَ خَوْفًا وَطَمَعًا وَيُنَزِّلُ مِنَ ٱلسَّمَآءِ مَآءً فَيُحْىِۦ بِهِ ٱلْأَرْضَ بَعْدَ مَوْتِهَآ ۚ إِنَّ فِى ذَٰلِكَ لَـَٔايَـٰتٍۢ لِّقَوْمٍۢ يَعْقِلُونَ ٢٤",
         latin:
           "Wa min āyātihi yurīkum al-barqa khawfan wa ṭamaʿan wa yunazzilu mina s-samā’i mā’an fa-yuḥyī bihī al-arḍa baʿda mawtihā, inna fī dhālika laāyātin liqawmin yaʿqilūn",
         translation:
@@ -327,7 +327,7 @@ export const dzikrData: Dzikr[] = [
       },
       {
         arabic:
-          "وَمِنْ ءَايَـٰتِهِۦٓ أَن تَقُومَ ٱلسَّمَآءُ وَٱلْأَرْضُ بِأَمْرِهِۦ ۚ ثُمَّ إِذَا دَعَاكُمْ دَعْوَةًۭ مِّنَ ٱلْأَرْضِ إِذَآ أَنتُمْ تَخْرُجُونَ ٢٥",
+          "وَمِنْ ءَايَـٰتِهِۦٓ أَن تَقُومَ ٱلسَّمَآءُ وَٱلْأَرْضُ بِأَمْرِهِۦ ۚ ثُمَّ إِذَا دَعَاكُمْ دَعْوَةً مِّنَ ٱلْأَرْضِ إِذَآ أَنتُمْ تَخْرُجُونَ ٢٥",
         latin:
           "Wa min āyātihi an taqūma s-samā’u wa-l-arḍu bi-amrihī thumma idhā daʿākum daʿwatan mina l-arḍi idhā antum takhrujūn",
         translation:
@@ -335,7 +335,7 @@ export const dzikrData: Dzikr[] = [
       },
       {
         arabic:
-          "وَلَهُۥ مَن فِى ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ ۖ كُلٌّۭ لَّهُۥ قَـٰنِتُونَ ٢٦",
+          "وَلَهُۥ مَن فِى ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ ۖ كُلٌّ لَّهُۥ قَـٰنِتُونَ ٢٦",
         latin: "Wa lahu man fī s-samāwāti wa-l-arḍi kullun lahu qānitūn",
         translation:
           "Dan milik-Nya lah siapa yang ada di langit dan di bumi. Semua hanya tunduk kepada-Nya.",
@@ -433,19 +433,19 @@ export const dzikrData: Dzikr[] = [
       },
       {
         arabic:
-          "يَوْمَئِذٍۢ يَصْدُرُ ٱلنَّاسُ أَشْتَاتًۭا لِّيُرَوْا۟ أَعْمَـٰلَهُمْ ٦",
+          "يَوْمَئِذٍۢ يَصْدُرُ ٱلنَّاسُ أَشْتَاتًا لِّيُرَوْا أَعْمَـٰلَهُمْ ٦",
         latin: "Yawmaʾidhin yaṣduru n-nāsu ashtātan liyuraw aʿmālahum",
         translation:
           "Pada hari itu manusia keluar dari kuburnya dalam keadaan yang bermacam-macam, supaya diperlihatkan kepada mereka (balasan) pekerjaan mereka.",
       },
       {
-        arabic: "فَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍ خَيْرًۭا يَرَهُۥ ٧",
+        arabic: "فَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍ خَيْرًا يَرَهُۥ ٧",
         latin: "Faman yaʿmal mithqāla dharratin khayran yarah",
         translation:
           "Barangsiapa yang mengerjakan kebaikan sebesar zarrah, niscaya dia akan melihat (balasan)nya.",
       },
       {
-        arabic: "وَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍۢ شَرًّۭا يَرَهُۥ ٨",
+        arabic: "وَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍۢ شَرًّا يَرَهُۥ ٨",
         latin: "Wa man yaʿmal mithqāla dharratin sharran yarah",
         translation:
           "Dan barangsiapa yang mengerjakan kejahatan sebesar zarrah, niscaya dia akan melihat (balasan)nya.",
@@ -473,7 +473,7 @@ export const dzikrData: Dzikr[] = [
         translation: "Dan kamu bukan penyembah Tuhan yang aku sembah.",
       },
       {
-        arabic: "وَلَآ أَنَا۠ عَابِدٌۭ مَّا عَبَدتُّمْ ٤",
+        arabic: "وَلَآ أَنَا۠ عَابِدٌ مَّا عَبَدتُّمْ ٤",
         latin: "Wa lā anā ʿābidum mā ʿabadtum",
         translation:
           "Dan aku tidak pernah menjadi penyembah apa yang kamu sembah.",
@@ -503,7 +503,7 @@ export const dzikrData: Dzikr[] = [
       },
       {
         arabic:
-          "وَرَأَيْتَ ٱلنَّاسَ يَدْخُلُونَ فِى دِينِ ٱللَّهِ أَفْوَاجًۭا ٢",
+          "وَرَأَيْتَ ٱلنَّاسَ يَدْخُلُونَ فِى دِينِ ٱللَّهِ أَفْوَاجًا ٢",
         latin: "Wa raʾayta n-nāsa yadkhulūna fī dīni llāhi afwājā",
         translation:
           "Dan kamu lihat manusia masuk agama Allah dengan berbondong-bondong.",
@@ -1036,7 +1036,7 @@ export const dzikrData: Dzikr[] = [
     children: [
       {
         arabic:
-          "اَللّهُمَّ إِنَّكَ تَعْلَمُ أَنَّ هَذِهِ الْقُلُوْبَ، قَدِ اجْتَمَعَتْ عَلَى مَحَبَّتِكَ وَالْتَقَتْ عَلَى طَاعَتِكَ، وَتَوَحَّدَتْ عَلَى دَعْوَتِكَ وَتَعَاهَدَتْ عَلَى نُصْرَةِ شَرِيْعَتِكَ فَوَثِّقِ اللَّهُمَّ رَابِطَتَهَا، وَأَدِمْ وُدَّهَا، وَاهْدِهَا سُبُلَهَا وَامْلَأَهَا بِنُوْرِكَ الَّذِيْ لاَ يَخْبُوْا وَاشْرَحْ صُدُوْرَهَا بِفَيْضِ الْإِيْمَانِ بِكَ، وَجَمِيْلِ التَّوَكُّلِ عَلَيْكَ وَاَحْيِهَا بِمَعْرِفَتِكَ، وَأَمِتْهَا عَلَى الشَّهَادَةِ فِي سَبِيْلِكَ إِنَّكَ نِعْمَ الْمَوْلَى وَنِعْمَ النَّصِيْرِ. اَللَّهُمَّ أَمِيْنَ. وَصَلِّ اللَّهُمَّ عَلَى سَيِّدَنَا مُحَمَّدٍ وَعَلَى آلِهِ وَصَحْبِهِ وَسَلِّمَ",
+          "اَللّهُمَّ إِنَّكَ تَعْلَمُ أَنَّ هَذِهِ الْقُلُوْبَ قَدِ اجْتَمَعَتْ عَلَى مَحَبَّتِكَ وَالْتَقَتْ عَلَى طَاعَتِكَ وَتَوَحَّدَتْ عَلَى دَعْوَتِكَ وَتَعَاهَدَتْ عَلَى نُصْرَةِ شَرِيْعَتِكَ فَوَثِّقِ اللَّهُمَّ رَابِطَتَهَا وَأَدِمْ وُدَّهَا وَاهْدِهَا سُبُلَهَا وَامْلَأَهَا بِنُوْرِكَ الَّذِيْ لاَ يَخْبُوْا وَاشْرَحْ صُدُوْرَهَا بِفَيْضِ الْإِيْمَانِ بِكَ وَجَمِيْلِ التَّوَكُّلِ عَلَيْكَ وَاَحْيِهَا بِمَعْرِفَتِكَ وَأَمِتْهَا عَلَى الشَّهَادَةِ فِي سَبِيْلِكَ إِنَّكَ نِعْمَ الْمَوْلَى وَنِعْمَ النَّصِيْرِ. اَللَّهُمَّ أَمِيْنَ. وَصَلِّ اللَّهُمَّ عَلَى سَيِّدَنَا مُحَمَّدٍ وَعَلَى آلِهِ وَصَحْبِهِ وَسَلِّمَ",
         latin:
           "Allāhumma innaka ta‘lamu anna hādihil qulūba qadij-tama‘at ‘alā maḥabbatika wa at-taqat ‘alā ṭā‘atika wa tawwaḥadat ‘alā da‘watika wa ta‘āhadat ‘alā nuṣrati syarī‘atika fawaththiqillāhumma rābiṭatahā wa adim wuddahā wa ahdiha subulahā wa amla’ahā binūrikalladhī lā yakhbū wa asyrah ṣudūrahā bifayḍil īmānibika wa jamīlittawakkuli ‘alayka wa aḥyihā bima‘rifatika wa amithhā ‘alasyahādati fī sabīlik, innaka ni‘mal mawlā wa ni‘man naṣīr. Allāhumma amīn. Wa shalli allāhumma ‘alā sayyidinā muḥammadin wa ‘alā ālihi wa ṣaḥbihi wa sallim",
         translation:
